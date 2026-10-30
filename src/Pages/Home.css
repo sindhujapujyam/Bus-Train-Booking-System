@@ -1,0 +1,33 @@
+
+.home-page {
+  min-height: 100vh;
+  background: #f4f7fb;
+  padding-bottom: 40px;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #142d4e, #2874a6);
+  color: white;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.hero-section h1 {
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+
+.hero-section p {
+  font-size: 18px;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .hero-section {
+    padding: 45px 15px;
+  }
+
+  .hero-section h1 {
+    font-size: 27px;
+  }
+}

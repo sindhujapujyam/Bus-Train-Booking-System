@@ -1,0 +1,104 @@
+
+{
+  "routes": [
+    {
+      "id": "1",
+      "source": "Hyderabad",
+      "destination": "Vijayawada"
+    },
+    {
+      "id": "2",
+      "source": "Vijayawada",
+      "destination": "Visakhapatnam"
+    },
+    {
+      "id": "3",
+      "source": "Vijayawada",
+      "destination": "Guntur"
+    },
+    {
+      "id": "4",
+      "source": "Tirupati",
+      "destination": "Nellore"
+    },
+    {
+      "id": "5",
+      "source": "Rajahmundry",
+      "destination": "Kakinada"
+    }
+  ],
+  "transports": [
+    {
+      "id": "1",
+      "name": "Orange Express",
+      "type": "Bus",
+      "routeId": "1",
+      "source": "Hyderabad",
+      "destination": "Vijayawada",
+      "departure": "21:00",
+      "arrival": "05:00",
+      "date": "2026-11-05",
+      "price": 850,
+      "totalSeats": 40,
+      "availableSeats": 40
+    },
+    {
+      "id": "2",
+      "name": "AP Express",
+      "type": "Train",
+      "routeId": "2",
+      "source": "Vijayawada",
+      "destination": "Visakhapatnam",
+      "departure": "08:00",
+      "arrival": "14:00",
+      "date": "2026-11-05",
+      "price": 450,
+      "totalSeats": 60,
+      "availableSeats": 60
+    },
+    {
+      "id": "3",
+      "name": "Guntur Travels",
+      "type": "Bus",
+      "routeId": "3",
+      "source": "Vijayawada",
+      "destination": "Guntur",
+      "departure": "09:00",
+      "arrival": "10:30",
+      "date": "2026-11-05",
+      "price": 250,
+      "totalSeats": 35,
+      "availableSeats": 35
+    },
+    {
+      "id": "4",
+      "name": "Tirupati Express",
+      "type": "Train",
+      "routeId": "4",
+      "source": "Tirupati",
+      "destination": "Nellore",
+      "departure": "07:00",
+      "arrival": "10:00",
+      "date": "2026-11-05",
+      "price": 300,
+      "totalSeats": 50,
+      "availableSeats": 50
+    },
+    {
+      "id": "5",
+      "name": "Coastal Travels",
+      "type": "Bus",
+      "routeId": "5",
+      "source": "Rajahmundry",
+      "destination": "Kakinada",
+      "departure": "11:00",
+      "arrival": "12:30",
+      "date": "2026-11-05",
+      "price": 200,
+      "totalSeats": 40,
+      "availableSeats": 40
+    }
+  ],
+  "passengers": [],
+  "bookings": []
+}

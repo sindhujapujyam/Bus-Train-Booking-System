@@ -1,0 +1,77 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  color: #333;
+}
+
+.hero-section {
+  background: linear-gradient(120deg, #142d4e, #24618b);
+  color: white;
+  text-align: center;
+  padding: 75px 20px;
+}
+
+.hero-section h1 {
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+
+.hero-section p {
+  font-size: 17px;
+  color: #e5edf5;
+}
+
+.loading-message {
+  text-align: center;
+  padding: 100px 20px;
+  font-size: 22px;
+  color: #142d4e;
+}
+
+.error-message {
+  margin: 20px;
+  padding: 15px;
+  background: #fee2e2;
+  color: #b91c1c;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.error-message button {
+  margin-left: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.not-found {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.footer {
+  background: #142d4e;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-top: 50px;
+}
+
+.footer p {
+  margin: 8px;
+}
+
+@media(max-width: 600px) {
+  .hero-section {
+    padding: 50px 15px;
+  }
+
+  .hero-section h1 {
+    font-size: 27px;
+  }
+}

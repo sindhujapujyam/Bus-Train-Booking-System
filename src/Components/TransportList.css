@@ -1,0 +1,98 @@
+
+.transport-container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.transport-container h2 {
+  text-align: center;
+  color: #142d4e;
+  margin-bottom: 25px;
+}
+
+.transport-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 22px;
+}
+
+.transport-card {
+  background: white;
+  padding: 22px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-top: 4px solid #ff9800;
+}
+
+.transport-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.transport-heading h3 {
+  color: #142d4e;
+}
+
+.transport-heading span {
+  background: #fff0d9;
+  color: #b86b00;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.transport-route {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 20px 0;
+  color: #142d4e;
+}
+
+.transport-route p {
+  color: #777;
+  font-size: 13px;
+}
+
+.transport-details {
+  border-top: 1px solid #eee;
+  padding-top: 12px;
+}
+
+.transport-details p {
+  color: #555;
+  margin: 10px 0;
+}
+
+.transport-details h3 {
+  color: #ff9800;
+}
+
+.transport-card button {
+  width: 100%;
+  padding: 12px;
+  background: #142d4e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.transport-card button:hover:not(:disabled) {
+  background: #ff9800;
+}
+
+.transport-card button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+.no-data {
+  text-align: center;
+  color: #777;
+  padding: 30px;
+}
